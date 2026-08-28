@@ -92,6 +92,33 @@ export const collections = [
   },
 ] as const;
 
+export const showpieceCallouts = [
+  {
+    title: "Solid, seasoned timber",
+    body: "Frames are cut from kiln-dried hardwood so they stay square and silent for decades.",
+    from: 0.06,
+    to: 0.38,
+    className: "md:left-12 md:right-auto md:bottom-[10%] lg:left-24",
+    align: "left",
+  },
+  {
+    title: "Carved by hand",
+    body: "Every scroll, leaf and bead is hand-carved and finished in our Chattogram workshop.",
+    from: 0.38,
+    to: 0.7,
+    className: "md:left-auto md:right-12 md:bottom-[10%] md:text-right lg:right-24",
+    align: "right",
+  },
+  {
+    title: "Upholstered to order",
+    body: "Choose the fabric, the fill and the finish. We deliver and install it in your home.",
+    from: 0.7,
+    to: 1.01,
+    className: "md:left-12 md:right-auto md:bottom-[10%] lg:left-24",
+    align: "left",
+  },
+] as const;
+
 export const bespokeSteps = [
   {
     step: "01",

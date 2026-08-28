@@ -7,6 +7,7 @@ import { Intro } from "@/components/Intro";
 import { JsonLd } from "@/components/JsonLd";
 import { Nav } from "@/components/Nav";
 import { Proof } from "@/components/Proof";
+import { Showpiece } from "@/components/Showpiece";
 import { StickyCta } from "@/components/StickyCta";
 import { Trust } from "@/components/Trust";
 
@@ -18,6 +19,7 @@ export default function Home() {
       <main className="flex-1">
         <Hero />
         <Intro />
+        <Showpiece />
         <Trust />
         <Collections />
         <Bespoke />
